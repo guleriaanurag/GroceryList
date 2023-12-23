@@ -1,0 +1,53 @@
+.main{
+  position: absolute;
+  top: 20vh;
+  left: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+}
+
+input{
+  outline: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.hover-btn{
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.hover-btn:hover{
+  background-color: wheat;
+}
+
+.list-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 30px;
+}
+
+.list-container ul{
+  list-style: none;
+}
+
+.list-container ul li span{
+  padding: 10px;
+}
+
+.delete-btn{
+  color: red;
+  background: transparent;
+  border: transparent;
+  margin: 10px 0px 0px 10px;
+}
+
+.delete-btn:hover{
+  color: orangered;
+}
